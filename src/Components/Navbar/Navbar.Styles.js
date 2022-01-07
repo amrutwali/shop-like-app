@@ -12,6 +12,7 @@ export const Content = styled.div`
     height: inherit;
     position: relative;
     display: flex;
+    /* justify-content: space-between; */
     align-items: center;
     
     span {
@@ -36,7 +37,10 @@ export const Content = styled.div`
     button {
         padding: 10px;
         min-width: 80px;
-        float: right;
+        position: absolute;
+        
+        /* float: right; */
+        right: 0;
         background: var(--secondary);
         color: var(--white);
         border-radius: 10px;
